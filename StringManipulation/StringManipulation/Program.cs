@@ -30,7 +30,7 @@ namespace StringManipulation
                 string lastName = names[1];
 
                 firstName = firstName.ToUpper()[0] + firstName.Substring(1);
-                lastName = lastName.ToUpper()[0] + firstName.Substring(1);
+                lastName = lastName.ToUpper()[0] + lastName.Substring(1);
 
                 Console.WriteLine($"{firstName} {lastName}");
             }
